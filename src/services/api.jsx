@@ -1,5 +1,5 @@
 import axios from "axios";
-export default class api {
+export default class Api {
   async getImages(value) {
     const result = await axios.get("https://api.unsplash.com/search/photos", {
       headers: {
